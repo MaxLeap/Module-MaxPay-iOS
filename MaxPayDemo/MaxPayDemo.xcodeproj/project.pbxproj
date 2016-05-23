@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B24AB15A1CF2F16500BFEC8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B24AB1591CF2F16500BFEC8C /* main.m */; };
+		B24AB15D1CF2F16500BFEC8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B24AB15C1CF2F16500BFEC8C /* AppDelegate.m */; };
+		B24AB1601CF2F16500BFEC8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B24AB15F1CF2F16500BFEC8C /* ViewController.m */; };
+		B24AB1631CF2F16500BFEC8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24AB1611CF2F16500BFEC8C /* Main.storyboard */; };
+		B24AB1651CF2F16500BFEC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24AB1641CF2F16500BFEC8C /* Assets.xcassets */; };
+		B24AB1681CF2F16500BFEC8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24AB1661CF2F16500BFEC8C /* LaunchScreen.storyboard */; };
+		B24AB1721CF2F1CA00BFEC8C /* MaxLeap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB1701CF2F1CA00BFEC8C /* MaxLeap.framework */; };
+		B24AB1731CF2F1CA00BFEC8C /* MaxLeapPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB1711CF2F1CA00BFEC8C /* MaxLeapPay.framework */; };
+		B24AB1751CF2F5B400BFEC8C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB1741CF2F5B400BFEC8C /* CoreTelephony.framework */; };
+		B24AB1771CF2F5B800BFEC8C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB1761CF2F5B800BFEC8C /* libsqlite3.tbd */; };
+		B24AB1791CF2F5BD00BFEC8C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB1781CF2F5BD00BFEC8C /* libz.tbd */; };
+		B24AB17B1CF2F5CA00BFEC8C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB17A1CF2F5CA00BFEC8C /* MobileCoreServices.framework */; };
+		B24AB17D1CF2F5D300BFEC8C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB17C1CF2F5D300BFEC8C /* SystemConfiguration.framework */; };
+		B24AB1801CF2FB5B00BFEC8C /* MaxPaymentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B24AB17F1CF2FB5B00BFEC8C /* MaxPaymentManager.m */; };
+		B24AB18E1CF2FBF400BFEC8C /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B24AB1831CF2FBF400BFEC8C /* AlipaySDK.bundle */; };
+		B24AB18F1CF2FBF400BFEC8C /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB1841CF2FBF400BFEC8C /* AlipaySDK.framework */; };
+		B24AB1901CF2FBF400BFEC8C /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB1861CF2FBF400BFEC8C /* libWeChatSDK.a */; };
+		B24AB1911CF2FBF400BFEC8C /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = B24AB1871CF2FBF400BFEC8C /* read_me.txt */; };
+		B24AB1921CF2FBF400BFEC8C /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB18C1CF2FBF400BFEC8C /* libPaymentControl.a */; };
+		B24AB1941CF2FE8200BFEC8C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB1931CF2FE8200BFEC8C /* CoreMotion.framework */; };
+		B24AB1961CF2FE8D00BFEC8C /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB1951CF2FE8D00BFEC8C /* libstdc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B24AB1551CF2F16500BFEC8C /* MaxPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24AB1591CF2F16500BFEC8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B24AB15B1CF2F16500BFEC8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B24AB15C1CF2F16500BFEC8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B24AB15E1CF2F16500BFEC8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B24AB15F1CF2F16500BFEC8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B24AB1621CF2F16500BFEC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B24AB1641CF2F16500BFEC8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B24AB1671CF2F16500BFEC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B24AB1691CF2F16500BFEC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24AB1701CF2F1CA00BFEC8C /* MaxLeap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MaxLeap.framework; sourceTree = "<group>"; };
+		B24AB1711CF2F1CA00BFEC8C /* MaxLeapPay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MaxLeapPay.framework; sourceTree = "<group>"; };
+		B24AB1741CF2F5B400BFEC8C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B24AB1761CF2F5B800BFEC8C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B24AB1781CF2F5BD00BFEC8C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B24AB17A1CF2F5CA00BFEC8C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B24AB17C1CF2F5D300BFEC8C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B24AB17E1CF2FB5B00BFEC8C /* MaxPaymentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxPaymentManager.h; sourceTree = "<group>"; };
+		B24AB17F1CF2FB5B00BFEC8C /* MaxPaymentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxPaymentManager.m; sourceTree = "<group>"; };
+		B24AB1831CF2FBF400BFEC8C /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		B24AB1841CF2FBF400BFEC8C /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		B24AB1861CF2FBF400BFEC8C /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		B24AB1871CF2FBF400BFEC8C /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		B24AB1881CF2FBF400BFEC8C /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		B24AB1891CF2FBF400BFEC8C /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		B24AB18A1CF2FBF400BFEC8C /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		B24AB18C1CF2FBF400BFEC8C /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
+		B24AB18D1CF2FBF400BFEC8C /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		B24AB1931CF2FE8200BFEC8C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B24AB1951CF2FE8D00BFEC8C /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B24AB1521CF2F16500BFEC8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24AB1961CF2FE8D00BFEC8C /* libstdc++.tbd in Frameworks */,
+				B24AB1941CF2FE8200BFEC8C /* CoreMotion.framework in Frameworks */,
+				B24AB17D1CF2F5D300BFEC8C /* SystemConfiguration.framework in Frameworks */,
+				B24AB18F1CF2FBF400BFEC8C /* AlipaySDK.framework in Frameworks */,
+				B24AB1901CF2FBF400BFEC8C /* libWeChatSDK.a in Frameworks */,
+				B24AB17B1CF2F5CA00BFEC8C /* MobileCoreServices.framework in Frameworks */,
+				B24AB1791CF2F5BD00BFEC8C /* libz.tbd in Frameworks */,
+				B24AB1771CF2F5B800BFEC8C /* libsqlite3.tbd in Frameworks */,
+				B24AB1921CF2FBF400BFEC8C /* libPaymentControl.a in Frameworks */,
+				B24AB1751CF2F5B400BFEC8C /* CoreTelephony.framework in Frameworks */,
+				B24AB1731CF2F1CA00BFEC8C /* MaxLeapPay.framework in Frameworks */,
+				B24AB1721CF2F1CA00BFEC8C /* MaxLeap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B24AB14C1CF2F16500BFEC8C = {
+			isa = PBXGroup;
+			children = (
+				B24AB1571CF2F16500BFEC8C /* MaxPayDemo */,
+				B24AB16F1CF2F1CA00BFEC8C /* Frameworks */,
+				B24AB1561CF2F16500BFEC8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B24AB1561CF2F16500BFEC8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B24AB1551CF2F16500BFEC8C /* MaxPayDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B24AB1571CF2F16500BFEC8C /* MaxPayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B24AB17E1CF2FB5B00BFEC8C /* MaxPaymentManager.h */,
+				B24AB17F1CF2FB5B00BFEC8C /* MaxPaymentManager.m */,
+				B24AB15B1CF2F16500BFEC8C /* AppDelegate.h */,
+				B24AB15C1CF2F16500BFEC8C /* AppDelegate.m */,
+				B24AB15E1CF2F16500BFEC8C /* ViewController.h */,
+				B24AB15F1CF2F16500BFEC8C /* ViewController.m */,
+				B24AB1611CF2F16500BFEC8C /* Main.storyboard */,
+				B24AB1641CF2F16500BFEC8C /* Assets.xcassets */,
+				B24AB1661CF2F16500BFEC8C /* LaunchScreen.storyboard */,
+				B24AB1691CF2F16500BFEC8C /* Info.plist */,
+				B24AB1581CF2F16500BFEC8C /* Supporting Files */,
+			);
+			path = MaxPayDemo;
+			sourceTree = "<group>";
+		};
+		B24AB1581CF2F16500BFEC8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B24AB1591CF2F16500BFEC8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B24AB16F1CF2F1CA00BFEC8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B24AB1951CF2FE8D00BFEC8C /* libstdc++.tbd */,
+				B24AB1931CF2FE8200BFEC8C /* CoreMotion.framework */,
+				B24AB1811CF2FBF400BFEC8C /* Payment */,
+				B24AB17C1CF2F5D300BFEC8C /* SystemConfiguration.framework */,
+				B24AB17A1CF2F5CA00BFEC8C /* MobileCoreServices.framework */,
+				B24AB1781CF2F5BD00BFEC8C /* libz.tbd */,
+				B24AB1761CF2F5B800BFEC8C /* libsqlite3.tbd */,
+				B24AB1741CF2F5B400BFEC8C /* CoreTelephony.framework */,
+				B24AB1701CF2F1CA00BFEC8C /* MaxLeap.framework */,
+				B24AB1711CF2F1CA00BFEC8C /* MaxLeapPay.framework */,
+			);
+			name = Frameworks;
+			path = MaxPayDemo/Frameworks;
+			sourceTree = "<group>";
+		};
+		B24AB1811CF2FBF400BFEC8C /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				B24AB1821CF2FBF400BFEC8C /* Alipay */,
+				B24AB1851CF2FBF400BFEC8C /* SDK1.6.2 */,
+				B24AB18B1CF2FBF400BFEC8C /* UnipayApp */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		B24AB1821CF2FBF400BFEC8C /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				B24AB1831CF2FBF400BFEC8C /* AlipaySDK.bundle */,
+				B24AB1841CF2FBF400BFEC8C /* AlipaySDK.framework */,
+			);
+			path = Alipay;
+			sourceTree = "<group>";
+		};
+		B24AB1851CF2FBF400BFEC8C /* SDK1.6.2 */ = {
+			isa = PBXGroup;
+			children = (
+				B24AB1861CF2FBF400BFEC8C /* libWeChatSDK.a */,
+				B24AB1871CF2FBF400BFEC8C /* read_me.txt */,
+				B24AB1881CF2FBF400BFEC8C /* WechatAuthSDK.h */,
+				B24AB1891CF2FBF400BFEC8C /* WXApi.h */,
+				B24AB18A1CF2FBF400BFEC8C /* WXApiObject.h */,
+			);
+			path = SDK1.6.2;
+			sourceTree = "<group>";
+		};
+		B24AB18B1CF2FBF400BFEC8C /* UnipayApp */ = {
+			isa = PBXGroup;
+			children = (
+				B24AB18C1CF2FBF400BFEC8C /* libPaymentControl.a */,
+				B24AB18D1CF2FBF400BFEC8C /* UPPaymentControl.h */,
+			);
+			path = UnipayApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B24AB1541CF2F16500BFEC8C /* MaxPayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24AB16C1CF2F16500BFEC8C /* Build configuration list for PBXNativeTarget "MaxPayDemo" */;
+			buildPhases = (
+				B24AB1511CF2F16500BFEC8C /* Sources */,
+				B24AB1521CF2F16500BFEC8C /* Frameworks */,
+				B24AB1531CF2F16500BFEC8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaxPayDemo;
+			productName = MaxPayDemo;
+			productReference = B24AB1551CF2F16500BFEC8C /* MaxPayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B24AB14D1CF2F16500BFEC8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhouhs;
+				TargetAttributes = {
+					B24AB1541CF2F16500BFEC8C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B24AB1501CF2F16500BFEC8C /* Build configuration list for PBXProject "MaxPayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B24AB14C1CF2F16500BFEC8C;
+			productRefGroup = B24AB1561CF2F16500BFEC8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B24AB1541CF2F16500BFEC8C /* MaxPayDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B24AB1531CF2F16500BFEC8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24AB1681CF2F16500BFEC8C /* LaunchScreen.storyboard in Resources */,
+				B24AB1651CF2F16500BFEC8C /* Assets.xcassets in Resources */,
+				B24AB18E1CF2FBF400BFEC8C /* AlipaySDK.bundle in Resources */,
+				B24AB1631CF2F16500BFEC8C /* Main.storyboard in Resources */,
+				B24AB1911CF2FBF400BFEC8C /* read_me.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B24AB1511CF2F16500BFEC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24AB1601CF2F16500BFEC8C /* ViewController.m in Sources */,
+				B24AB1801CF2FB5B00BFEC8C /* MaxPaymentManager.m in Sources */,
+				B24AB15D1CF2F16500BFEC8C /* AppDelegate.m in Sources */,
+				B24AB15A1CF2F16500BFEC8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B24AB1611CF2F16500BFEC8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B24AB1621CF2F16500BFEC8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B24AB1661CF2F16500BFEC8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B24AB1671CF2F16500BFEC8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B24AB16A1CF2F16500BFEC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B24AB16B1CF2F16500BFEC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B24AB16D1CF2F16500BFEC8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MaxPayDemo/Frameworks",
+					"$(PROJECT_DIR)/MaxPayDemo/Frameworks/Payment/Alipay",
+				);
+				INFOPLIST_FILE = MaxPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MaxPayDemo/Frameworks/Payment/SDK1.6.2",
+					"$(PROJECT_DIR)/MaxPayDemo/Frameworks/Payment/UnipayApp",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxleapsamples.MaxPayDemo.MaxPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B24AB16E1CF2F16500BFEC8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MaxPayDemo/Frameworks",
+					"$(PROJECT_DIR)/MaxPayDemo/Frameworks/Payment/Alipay",
+				);
+				INFOPLIST_FILE = MaxPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MaxPayDemo/Frameworks/Payment/SDK1.6.2",
+					"$(PROJECT_DIR)/MaxPayDemo/Frameworks/Payment/UnipayApp",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxleapsamples.MaxPayDemo.MaxPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B24AB1501CF2F16500BFEC8C /* Build configuration list for PBXProject "MaxPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24AB16A1CF2F16500BFEC8C /* Debug */,
+				B24AB16B1CF2F16500BFEC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24AB16C1CF2F16500BFEC8C /* Build configuration list for PBXNativeTarget "MaxPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24AB16D1CF2F16500BFEC8C /* Debug */,
+				B24AB16E1CF2F16500BFEC8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B24AB14D1CF2F16500BFEC8C /* Project object */;
+}
