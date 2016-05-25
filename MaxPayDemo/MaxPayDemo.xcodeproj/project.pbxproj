@@ -6,7 +6,51 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B22A4F0E1CF55A3300C0815B /* universal-framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B22A4F0F1CF55A3300C0815B /* Build configuration list for PBXAggregateTarget "universal-framework" */;
+			buildPhases = (
+				B22A4F121CF55A7F00C0815B /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "universal-framework";
+			productName = "universal-framework";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		B22A4EF41CF5597300C0815B /* MaxPayUI.h in Headers */ = {isa = PBXBuildFile; fileRef = B22A4EF31CF5597300C0815B /* MaxPayUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B22A4EFE1CF5598400C0815B /* ic_pay_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4ED41CF5518C00C0815B /* ic_pay_normal@2x.png */; };
+		B22A4EFF1CF5598400C0815B /* ic_pay_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4ED51CF5518C00C0815B /* ic_pay_normal@3x.png */; };
+		B22A4F001CF5598400C0815B /* ic_pay_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4ED61CF5518C00C0815B /* ic_pay_selected@2x.png */; };
+		B22A4F011CF5598400C0815B /* ic_pay_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4ED71CF5518C00C0815B /* ic_pay_selected@3x.png */; };
+		B22A4F021CF5598400C0815B /* ic_pay_succesfully@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4ED81CF5518C00C0815B /* ic_pay_succesfully@2x.png */; };
+		B22A4F031CF5598400C0815B /* ic_pay_succesfully@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4ED91CF5518C00C0815B /* ic_pay_succesfully@3x.png */; };
+		B22A4F041CF5598400C0815B /* ic_pay_with_alipay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4EDA1CF5518C00C0815B /* ic_pay_with_alipay@2x.png */; };
+		B22A4F051CF5598400C0815B /* ic_pay_with_alipay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4EDB1CF5518C00C0815B /* ic_pay_with_alipay@3x.png */; };
+		B22A4F061CF5598400C0815B /* ic_pay_with_unionpay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4EDC1CF5518C00C0815B /* ic_pay_with_unionpay@2x.png */; };
+		B22A4F071CF5598400C0815B /* ic_pay_with_unionpay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4EDD1CF5518C00C0815B /* ic_pay_with_unionpay@3x.png */; };
+		B22A4F081CF5598400C0815B /* ic_pay_with_wechat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4EDE1CF5518C00C0815B /* ic_pay_with_wechat@2x.png */; };
+		B22A4F091CF5598400C0815B /* ic_pay_with_wechat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4EDF1CF5518C00C0815B /* ic_pay_with_wechat@3x.png */; };
+		B22A4F0A1CF5598400C0815B /* MaxPaymentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B22A4ECB1CF540FC00C0815B /* MaxPaymentManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B22A4F0B1CF5598400C0815B /* MaxPaymentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B22A4ECC1CF540FC00C0815B /* MaxPaymentManager.m */; };
+		B22A4F0C1CF5598400C0815B /* MaxPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B22A4ECE1CF5414E00C0815B /* MaxPaymentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B22A4F0D1CF5598400C0815B /* MaxPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22A4ECF1CF5414E00C0815B /* MaxPaymentViewController.m */; };
+		B22A4F231CF55B7D00C0815B /* MaxPayUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22A4F151CF55B7D00C0815B /* MaxPayUI.framework */; };
+		B22A4F241CF55B7D00C0815B /* ic_pay_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4F171CF55B7D00C0815B /* ic_pay_normal@2x.png */; };
+		B22A4F251CF55B7D00C0815B /* ic_pay_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4F181CF55B7D00C0815B /* ic_pay_normal@3x.png */; };
+		B22A4F261CF55B7D00C0815B /* ic_pay_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4F191CF55B7D00C0815B /* ic_pay_selected@2x.png */; };
+		B22A4F271CF55B7D00C0815B /* ic_pay_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4F1A1CF55B7D00C0815B /* ic_pay_selected@3x.png */; };
+		B22A4F281CF55B7D00C0815B /* ic_pay_succesfully@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4F1B1CF55B7D00C0815B /* ic_pay_succesfully@2x.png */; };
+		B22A4F291CF55B7D00C0815B /* ic_pay_succesfully@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4F1C1CF55B7D00C0815B /* ic_pay_succesfully@3x.png */; };
+		B22A4F2A1CF55B7D00C0815B /* ic_pay_with_alipay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4F1D1CF55B7D00C0815B /* ic_pay_with_alipay@2x.png */; };
+		B22A4F2B1CF55B7D00C0815B /* ic_pay_with_alipay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4F1E1CF55B7D00C0815B /* ic_pay_with_alipay@3x.png */; };
+		B22A4F2C1CF55B7D00C0815B /* ic_pay_with_unionpay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4F1F1CF55B7D00C0815B /* ic_pay_with_unionpay@2x.png */; };
+		B22A4F2D1CF55B7D00C0815B /* ic_pay_with_unionpay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4F201CF55B7D00C0815B /* ic_pay_with_unionpay@3x.png */; };
+		B22A4F2E1CF55B7D00C0815B /* ic_pay_with_wechat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4F211CF55B7D00C0815B /* ic_pay_with_wechat@2x.png */; };
+		B22A4F2F1CF55B7D00C0815B /* ic_pay_with_wechat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B22A4F221CF55B7D00C0815B /* ic_pay_with_wechat@3x.png */; };
 		B24AB15A1CF2F16500BFEC8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B24AB1591CF2F16500BFEC8C /* main.m */; };
 		B24AB15D1CF2F16500BFEC8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B24AB15C1CF2F16500BFEC8C /* AppDelegate.m */; };
 		B24AB1601CF2F16500BFEC8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B24AB15F1CF2F16500BFEC8C /* ViewController.m */; };
@@ -20,7 +64,6 @@
 		B24AB1791CF2F5BD00BFEC8C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB1781CF2F5BD00BFEC8C /* libz.tbd */; };
 		B24AB17B1CF2F5CA00BFEC8C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB17A1CF2F5CA00BFEC8C /* MobileCoreServices.framework */; };
 		B24AB17D1CF2F5D300BFEC8C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB17C1CF2F5D300BFEC8C /* SystemConfiguration.framework */; };
-		B24AB1801CF2FB5B00BFEC8C /* MaxPaymentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B24AB17F1CF2FB5B00BFEC8C /* MaxPaymentManager.m */; };
 		B24AB18E1CF2FBF400BFEC8C /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B24AB1831CF2FBF400BFEC8C /* AlipaySDK.bundle */; };
 		B24AB18F1CF2FBF400BFEC8C /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB1841CF2FBF400BFEC8C /* AlipaySDK.framework */; };
 		B24AB1901CF2FBF400BFEC8C /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B24AB1861CF2FBF400BFEC8C /* libWeChatSDK.a */; };
@@ -31,6 +74,38 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B22A4ECB1CF540FC00C0815B /* MaxPaymentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxPaymentManager.h; sourceTree = "<group>"; };
+		B22A4ECC1CF540FC00C0815B /* MaxPaymentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxPaymentManager.m; sourceTree = "<group>"; };
+		B22A4ECE1CF5414E00C0815B /* MaxPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxPaymentViewController.h; sourceTree = "<group>"; };
+		B22A4ECF1CF5414E00C0815B /* MaxPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxPaymentViewController.m; sourceTree = "<group>"; };
+		B22A4ED41CF5518C00C0815B /* ic_pay_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_normal@2x.png"; sourceTree = "<group>"; };
+		B22A4ED51CF5518C00C0815B /* ic_pay_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_normal@3x.png"; sourceTree = "<group>"; };
+		B22A4ED61CF5518C00C0815B /* ic_pay_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_selected@2x.png"; sourceTree = "<group>"; };
+		B22A4ED71CF5518C00C0815B /* ic_pay_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_selected@3x.png"; sourceTree = "<group>"; };
+		B22A4ED81CF5518C00C0815B /* ic_pay_succesfully@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_succesfully@2x.png"; sourceTree = "<group>"; };
+		B22A4ED91CF5518C00C0815B /* ic_pay_succesfully@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_succesfully@3x.png"; sourceTree = "<group>"; };
+		B22A4EDA1CF5518C00C0815B /* ic_pay_with_alipay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_with_alipay@2x.png"; sourceTree = "<group>"; };
+		B22A4EDB1CF5518C00C0815B /* ic_pay_with_alipay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_with_alipay@3x.png"; sourceTree = "<group>"; };
+		B22A4EDC1CF5518C00C0815B /* ic_pay_with_unionpay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_with_unionpay@2x.png"; sourceTree = "<group>"; };
+		B22A4EDD1CF5518C00C0815B /* ic_pay_with_unionpay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_with_unionpay@3x.png"; sourceTree = "<group>"; };
+		B22A4EDE1CF5518C00C0815B /* ic_pay_with_wechat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_with_wechat@2x.png"; sourceTree = "<group>"; };
+		B22A4EDF1CF5518C00C0815B /* ic_pay_with_wechat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_with_wechat@3x.png"; sourceTree = "<group>"; };
+		B22A4EF11CF5597300C0815B /* MaxPayUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MaxPayUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22A4EF31CF5597300C0815B /* MaxPayUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxPayUI.h; sourceTree = "<group>"; };
+		B22A4EF51CF5597300C0815B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22A4F151CF55B7D00C0815B /* MaxPayUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MaxPayUI.framework; sourceTree = "<group>"; };
+		B22A4F171CF55B7D00C0815B /* ic_pay_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_normal@2x.png"; sourceTree = "<group>"; };
+		B22A4F181CF55B7D00C0815B /* ic_pay_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_normal@3x.png"; sourceTree = "<group>"; };
+		B22A4F191CF55B7D00C0815B /* ic_pay_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_selected@2x.png"; sourceTree = "<group>"; };
+		B22A4F1A1CF55B7D00C0815B /* ic_pay_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_selected@3x.png"; sourceTree = "<group>"; };
+		B22A4F1B1CF55B7D00C0815B /* ic_pay_succesfully@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_succesfully@2x.png"; sourceTree = "<group>"; };
+		B22A4F1C1CF55B7D00C0815B /* ic_pay_succesfully@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_succesfully@3x.png"; sourceTree = "<group>"; };
+		B22A4F1D1CF55B7D00C0815B /* ic_pay_with_alipay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_with_alipay@2x.png"; sourceTree = "<group>"; };
+		B22A4F1E1CF55B7D00C0815B /* ic_pay_with_alipay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_with_alipay@3x.png"; sourceTree = "<group>"; };
+		B22A4F1F1CF55B7D00C0815B /* ic_pay_with_unionpay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_with_unionpay@2x.png"; sourceTree = "<group>"; };
+		B22A4F201CF55B7D00C0815B /* ic_pay_with_unionpay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_with_unionpay@3x.png"; sourceTree = "<group>"; };
+		B22A4F211CF55B7D00C0815B /* ic_pay_with_wechat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_with_wechat@2x.png"; sourceTree = "<group>"; };
+		B22A4F221CF55B7D00C0815B /* ic_pay_with_wechat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pay_with_wechat@3x.png"; sourceTree = "<group>"; };
 		B24AB1551CF2F16500BFEC8C /* MaxPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24AB1591CF2F16500BFEC8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B24AB15B1CF2F16500BFEC8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,8 +123,6 @@
 		B24AB1781CF2F5BD00BFEC8C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		B24AB17A1CF2F5CA00BFEC8C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		B24AB17C1CF2F5D300BFEC8C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		B24AB17E1CF2FB5B00BFEC8C /* MaxPaymentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxPaymentManager.h; sourceTree = "<group>"; };
-		B24AB17F1CF2FB5B00BFEC8C /* MaxPaymentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxPaymentManager.m; sourceTree = "<group>"; };
 		B24AB1831CF2FBF400BFEC8C /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		B24AB1841CF2FBF400BFEC8C /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		B24AB1861CF2FBF400BFEC8C /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
@@ -64,6 +137,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B22A4EED1CF5597300C0815B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B24AB1521CF2F16500BFEC8C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,6 +158,7 @@
 				B24AB1771CF2F5B800BFEC8C /* libsqlite3.tbd in Frameworks */,
 				B24AB1921CF2FBF400BFEC8C /* libPaymentControl.a in Frameworks */,
 				B24AB1751CF2F5B400BFEC8C /* CoreTelephony.framework in Frameworks */,
+				B22A4F231CF55B7D00C0815B /* MaxPayUI.framework in Frameworks */,
 				B24AB1731CF2F1CA00BFEC8C /* MaxLeapPay.framework in Frameworks */,
 				B24AB1721CF2F1CA00BFEC8C /* MaxLeap.framework in Frameworks */,
 			);
@@ -86,10 +167,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B22A4ECA1CF540FC00C0815B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B22A4ED31CF5518C00C0815B /* Resource */,
+				B22A4ECB1CF540FC00C0815B /* MaxPaymentManager.h */,
+				B22A4ECC1CF540FC00C0815B /* MaxPaymentManager.m */,
+				B22A4ECE1CF5414E00C0815B /* MaxPaymentViewController.h */,
+				B22A4ECF1CF5414E00C0815B /* MaxPaymentViewController.m */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		B22A4ED31CF5518C00C0815B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B22A4ED41CF5518C00C0815B /* ic_pay_normal@2x.png */,
+				B22A4ED51CF5518C00C0815B /* ic_pay_normal@3x.png */,
+				B22A4ED61CF5518C00C0815B /* ic_pay_selected@2x.png */,
+				B22A4ED71CF5518C00C0815B /* ic_pay_selected@3x.png */,
+				B22A4ED81CF5518C00C0815B /* ic_pay_succesfully@2x.png */,
+				B22A4ED91CF5518C00C0815B /* ic_pay_succesfully@3x.png */,
+				B22A4EDA1CF5518C00C0815B /* ic_pay_with_alipay@2x.png */,
+				B22A4EDB1CF5518C00C0815B /* ic_pay_with_alipay@3x.png */,
+				B22A4EDC1CF5518C00C0815B /* ic_pay_with_unionpay@2x.png */,
+				B22A4EDD1CF5518C00C0815B /* ic_pay_with_unionpay@3x.png */,
+				B22A4EDE1CF5518C00C0815B /* ic_pay_with_wechat@2x.png */,
+				B22A4EDF1CF5518C00C0815B /* ic_pay_with_wechat@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B22A4EF21CF5597300C0815B /* MaxPayUI */ = {
+			isa = PBXGroup;
+			children = (
+				B22A4EF31CF5597300C0815B /* MaxPayUI.h */,
+				B22A4EF51CF5597300C0815B /* Info.plist */,
+			);
+			path = MaxPayUI;
+			sourceTree = "<group>";
+		};
+		B22A4F141CF55B7D00C0815B /* MaxPayUI.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				B22A4F151CF55B7D00C0815B /* MaxPayUI.framework */,
+				B22A4F161CF55B7D00C0815B /* Resources */,
+			);
+			name = MaxPayUI.embeddedframework;
+			path = ../../MaxPayUI.embeddedframework;
+			sourceTree = "<group>";
+		};
+		B22A4F161CF55B7D00C0815B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B22A4F171CF55B7D00C0815B /* ic_pay_normal@2x.png */,
+				B22A4F181CF55B7D00C0815B /* ic_pay_normal@3x.png */,
+				B22A4F191CF55B7D00C0815B /* ic_pay_selected@2x.png */,
+				B22A4F1A1CF55B7D00C0815B /* ic_pay_selected@3x.png */,
+				B22A4F1B1CF55B7D00C0815B /* ic_pay_succesfully@2x.png */,
+				B22A4F1C1CF55B7D00C0815B /* ic_pay_succesfully@3x.png */,
+				B22A4F1D1CF55B7D00C0815B /* ic_pay_with_alipay@2x.png */,
+				B22A4F1E1CF55B7D00C0815B /* ic_pay_with_alipay@3x.png */,
+				B22A4F1F1CF55B7D00C0815B /* ic_pay_with_unionpay@2x.png */,
+				B22A4F201CF55B7D00C0815B /* ic_pay_with_unionpay@3x.png */,
+				B22A4F211CF55B7D00C0815B /* ic_pay_with_wechat@2x.png */,
+				B22A4F221CF55B7D00C0815B /* ic_pay_with_wechat@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B24AB14C1CF2F16500BFEC8C = {
 			isa = PBXGroup;
 			children = (
+				B22A4ECA1CF540FC00C0815B /* Source */,
 				B24AB1571CF2F16500BFEC8C /* MaxPayDemo */,
+				B22A4EF21CF5597300C0815B /* MaxPayUI */,
 				B24AB16F1CF2F1CA00BFEC8C /* Frameworks */,
 				B24AB1561CF2F16500BFEC8C /* Products */,
 			);
@@ -99,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				B24AB1551CF2F16500BFEC8C /* MaxPayDemo.app */,
+				B22A4EF11CF5597300C0815B /* MaxPayUI.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,8 +260,7 @@
 		B24AB1571CF2F16500BFEC8C /* MaxPayDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B24AB17E1CF2FB5B00BFEC8C /* MaxPaymentManager.h */,
-				B24AB17F1CF2FB5B00BFEC8C /* MaxPaymentManager.m */,
+				B22A4F141CF55B7D00C0815B /* MaxPayUI.embeddedframework */,
 				B24AB15B1CF2F16500BFEC8C /* AppDelegate.h */,
 				B24AB15C1CF2F16500BFEC8C /* AppDelegate.m */,
 				B24AB15E1CF2F16500BFEC8C /* ViewController.h */,
@@ -189,7 +342,38 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		B22A4EEE1CF5597300C0815B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22A4F0A1CF5598400C0815B /* MaxPaymentManager.h in Headers */,
+				B22A4EF41CF5597300C0815B /* MaxPayUI.h in Headers */,
+				B22A4F0C1CF5598400C0815B /* MaxPaymentViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		B22A4EF01CF5597300C0815B /* MaxPayUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22A4EFA1CF5597300C0815B /* Build configuration list for PBXNativeTarget "MaxPayUI" */;
+			buildPhases = (
+				B22A4EEC1CF5597300C0815B /* Sources */,
+				B22A4EED1CF5597300C0815B /* Frameworks */,
+				B22A4EEE1CF5597300C0815B /* Headers */,
+				B22A4EEF1CF5597300C0815B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaxPayUI;
+			productName = MaxPayUI;
+			productReference = B22A4EF11CF5597300C0815B /* MaxPayUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B24AB1541CF2F16500BFEC8C /* MaxPayDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B24AB16C1CF2F16500BFEC8C /* Build configuration list for PBXNativeTarget "MaxPayDemo" */;
@@ -216,6 +400,12 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = zhouhs;
 				TargetAttributes = {
+					B22A4EF01CF5597300C0815B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B22A4F0E1CF55A3300C0815B = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					B24AB1541CF2F16500BFEC8C = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -235,32 +425,89 @@
 			projectRoot = "";
 			targets = (
 				B24AB1541CF2F16500BFEC8C /* MaxPayDemo */,
+				B22A4EF01CF5597300C0815B /* MaxPayUI */,
+				B22A4F0E1CF55A3300C0815B /* universal-framework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B22A4EEF1CF5597300C0815B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22A4F061CF5598400C0815B /* ic_pay_with_unionpay@2x.png in Resources */,
+				B22A4F001CF5598400C0815B /* ic_pay_selected@2x.png in Resources */,
+				B22A4F091CF5598400C0815B /* ic_pay_with_wechat@3x.png in Resources */,
+				B22A4F011CF5598400C0815B /* ic_pay_selected@3x.png in Resources */,
+				B22A4F081CF5598400C0815B /* ic_pay_with_wechat@2x.png in Resources */,
+				B22A4F041CF5598400C0815B /* ic_pay_with_alipay@2x.png in Resources */,
+				B22A4F021CF5598400C0815B /* ic_pay_succesfully@2x.png in Resources */,
+				B22A4F031CF5598400C0815B /* ic_pay_succesfully@3x.png in Resources */,
+				B22A4EFE1CF5598400C0815B /* ic_pay_normal@2x.png in Resources */,
+				B22A4F071CF5598400C0815B /* ic_pay_with_unionpay@3x.png in Resources */,
+				B22A4F051CF5598400C0815B /* ic_pay_with_alipay@3x.png in Resources */,
+				B22A4EFF1CF5598400C0815B /* ic_pay_normal@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B24AB1531CF2F16500BFEC8C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B22A4F271CF55B7D00C0815B /* ic_pay_selected@3x.png in Resources */,
+				B22A4F261CF55B7D00C0815B /* ic_pay_selected@2x.png in Resources */,
+				B22A4F2F1CF55B7D00C0815B /* ic_pay_with_wechat@3x.png in Resources */,
+				B22A4F2B1CF55B7D00C0815B /* ic_pay_with_alipay@3x.png in Resources */,
 				B24AB1681CF2F16500BFEC8C /* LaunchScreen.storyboard in Resources */,
+				B22A4F2D1CF55B7D00C0815B /* ic_pay_with_unionpay@3x.png in Resources */,
 				B24AB1651CF2F16500BFEC8C /* Assets.xcassets in Resources */,
+				B22A4F2E1CF55B7D00C0815B /* ic_pay_with_wechat@2x.png in Resources */,
 				B24AB18E1CF2FBF400BFEC8C /* AlipaySDK.bundle in Resources */,
 				B24AB1631CF2F16500BFEC8C /* Main.storyboard in Resources */,
+				B22A4F251CF55B7D00C0815B /* ic_pay_normal@3x.png in Resources */,
+				B22A4F291CF55B7D00C0815B /* ic_pay_succesfully@3x.png in Resources */,
+				B22A4F2C1CF55B7D00C0815B /* ic_pay_with_unionpay@2x.png in Resources */,
 				B24AB1911CF2FBF400BFEC8C /* read_me.txt in Resources */,
+				B22A4F241CF55B7D00C0815B /* ic_pay_normal@2x.png in Resources */,
+				B22A4F2A1CF55B7D00C0815B /* ic_pay_with_alipay@2x.png in Resources */,
+				B22A4F281CF55B7D00C0815B /* ic_pay_succesfully@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B22A4F121CF55A7F00C0815B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh universal-framework \"${PROJECT_DIR}\" -o \"..\" -t MaxPayUI -embedded\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		B22A4EEC1CF5597300C0815B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22A4F0D1CF5598400C0815B /* MaxPaymentViewController.m in Sources */,
+				B22A4F0B1CF5598400C0815B /* MaxPaymentManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B24AB1511CF2F16500BFEC8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B24AB1601CF2F16500BFEC8C /* ViewController.m in Sources */,
-				B24AB1801CF2FB5B00BFEC8C /* MaxPaymentManager.m in Sources */,
 				B24AB15D1CF2F16500BFEC8C /* AppDelegate.m in Sources */,
 				B24AB15A1CF2F16500BFEC8C /* main.m in Sources */,
 			);
@@ -288,6 +535,64 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B22A4EFB1CF5597300C0815B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/MaxPayDemo/Frameworks/**";
+				INFOPLIST_FILE = MaxPayUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxleapsamples.MaxPayUI.MaxPayUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B22A4EFC1CF5597300C0815B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/MaxPayDemo/Frameworks/**";
+				INFOPLIST_FILE = MaxPayUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxleapsamples.MaxPayUI.MaxPayUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B22A4F101CF55A3300C0815B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B22A4F111CF55A3300C0815B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		B24AB16A1CF2F16500BFEC8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -378,8 +683,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/MaxPayDemo/Frameworks",
-					"$(PROJECT_DIR)/MaxPayDemo/Frameworks/Payment/Alipay",
+					"$(PROJECT_DIR)/MaxPayDemo/Frameworks/**",
+					"../**",
 				);
 				INFOPLIST_FILE = MaxPayDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -400,8 +705,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/MaxPayDemo/Frameworks",
-					"$(PROJECT_DIR)/MaxPayDemo/Frameworks/Payment/Alipay",
+					"$(PROJECT_DIR)/MaxPayDemo/Frameworks/**",
+					"../**",
 				);
 				INFOPLIST_FILE = MaxPayDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -419,6 +724,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B22A4EFA1CF5597300C0815B /* Build configuration list for PBXNativeTarget "MaxPayUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22A4EFB1CF5597300C0815B /* Debug */,
+				B22A4EFC1CF5597300C0815B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B22A4F0F1CF55A3300C0815B /* Build configuration list for PBXAggregateTarget "universal-framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22A4F101CF55A3300C0815B /* Debug */,
+				B22A4F111CF55A3300C0815B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B24AB1501CF2F16500BFEC8C /* Build configuration list for PBXProject "MaxPayDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

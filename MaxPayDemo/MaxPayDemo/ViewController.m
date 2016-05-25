@@ -10,8 +10,10 @@
 #import "WXApi.h"
 #import "MaxPaymentManager.h"
 
+
 @import MaxLeap;
 @import MaxLeapPay;
+@import MaxPayUI;
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
@@ -64,7 +66,7 @@
                                                 totalFen:[self.demoOrder[@"price"] floatValue]
                                                   scheme:existSchemeStr
                                                returnUrl:channel==MLPayChannelUnipayApp?@"http://maxleap.cn/returnUrl":nil
-                                              extraAttrs:nil
+                                              extraAttrs:@{@"orderinfo":self.demoOrder}
                                               completion:^(BOOL succeeded, MLPayResult *result) {
                                                   NSLog(@"pay result %@", @(succeeded));
                                                   [self queryCurrentPaymentResult];
@@ -107,6 +109,23 @@
     [self queryCurrentPaymentResult];
 }
 
+- (IBAction)maxpayUI:(id)sender {
+    if (self.demoOrder==nil) {
+        [self createRandomOrder];
+    }
+    
+    MaxPaymentViewController *payViewController = [[MaxPaymentViewController alloc]init];
+    MaxPaymentOrder *order = [[MaxPaymentOrder alloc]init];
+    order.totalPrice = [NSDecimalNumber decimalNumberWithString:@"1"];
+    order.orderId = self.demoOrder[@"id"];
+    payViewController.order = order;
+    payViewController.completionBlock = ^(BOOL succeeded, MLPayResult *result) {
+        NSLog(@"pay result is %@", result);
+        [self queryCurrentPaymentResult];
+        [self.navigationController popViewControllerAnimated:YES];
+    };
+    [self.navigationController pushViewController:payViewController animated:YES];
+}
 
 - (IBAction)payWithAlipay:(id)sender {
     if (self.demoOrder==nil) {

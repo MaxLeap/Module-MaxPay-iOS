@@ -20,11 +20,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="订单未创建" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NIq-SZ-KnP">
                                 <rect key="frame" x="258" y="114" width="85" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCA-WT-JpN">
-                                <rect key="frame" x="263" y="185" width="75" height="30"/>
+                                <rect key="frame" x="263" y="205" width="75" height="30"/>
                                 <state key="normal" title="支付宝支付"/>
                                 <connections>
                                     <action selector="payWithAlipay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WWP-Za-l4D"/>
@@ -38,23 +38,33 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCG-lz-2bW">
-                                <rect key="frame" x="270" y="285" width="60" height="30"/>
+                                <rect key="frame" x="270" y="265" width="60" height="30"/>
                                 <state key="normal" title="银联支付"/>
                                 <connections>
                                     <action selector="payWithUniPay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U0g-6Q-neU"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sxb-LA-wMK">
-                                <rect key="frame" x="300" y="345" width="0.0" height="0.0"/>
+                                <rect key="frame" x="300" y="325" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.13725490200000001" blue="0.47058823529999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCv-nX-shc">
+                                <rect key="frame" x="255" y="155" width="90" height="30"/>
+                                <state key="normal" title="统一支付界面"/>
+                                <connections>
+                                    <action selector="maxpayUI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ano-U0-umL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="bCG-lz-2bW" firstAttribute="top" secondItem="TEs-iW-JSr" secondAttribute="bottom" constant="20" id="0aK-EM-evb"/>
-                            <constraint firstItem="TEs-iW-JSr" firstAttribute="top" secondItem="XCA-WT-JpN" secondAttribute="bottom" constant="20" id="8TM-dx-9gf"/>
+                            <constraint firstItem="XCA-WT-JpN" firstAttribute="top" secondItem="sCv-nX-shc" secondAttribute="bottom" constant="20" id="0FS-W4-tHK"/>
+                            <constraint firstItem="bCG-lz-2bW" firstAttribute="top" secondItem="TEs-iW-JSr" secondAttribute="bottom" id="0aK-EM-evb"/>
+                            <constraint firstItem="sCv-nX-shc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Qe-B3-9hW"/>
+                            <constraint firstItem="TEs-iW-JSr" firstAttribute="top" secondItem="XCA-WT-JpN" secondAttribute="bottom" id="8TM-dx-9gf"/>
+                            <constraint firstItem="sCv-nX-shc" firstAttribute="top" secondItem="NIq-SZ-KnP" secondAttribute="bottom" constant="20" id="EhO-gp-UQc"/>
                             <constraint firstItem="TEs-iW-JSr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I9J-Qe-3Rm"/>
                             <constraint firstItem="NIq-SZ-KnP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="JWI-od-l9l"/>
                             <constraint firstItem="bCG-lz-2bW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OWM-Qk-ROu"/>
@@ -67,6 +77,7 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="PUG-Gx-vey"/>
                                 <exclude reference="Zqb-bc-AkB"/>
                             </mask>
                         </variation>
